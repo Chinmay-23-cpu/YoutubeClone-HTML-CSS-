@@ -34,15 +34,25 @@
         margin-bottom: 0px;
         margin-top: 0;
       }
-      .video_preview1
-      {
+      .video_preview1 {
         width: 300px;
         display: inline-block;
       }
-      .video_preview2
-      {
+      .video_preview2 {
         width: 300px;
         display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+      }
+      .profile-1
+      {
+        display: inline-block;
+        width: 50px;
+      }
+      .video-info
+      {
+        display: inline-block;
+        width: 200px;
       }
     </style>
   </head>
@@ -51,21 +61,29 @@
 
     <!-- <p> by default, come with margin at the top and bottom -->
     <div class="video_preview1">
-      <img class="thumbnail-1" src="/thumbnails/thumbnail-1.webp" />
-      <p class="Video_Title">
-        Talking Tech and AI with Google CEO sundar Pichai!
-      </p>
+      <div>
+        <img class="thumbnail-1" src="/thumbnails/thumbnail-1.webp" />
+      </div>
+      <div>
+        <div class="profile-1">
+            <img class="profile-1" src="/profiles/channel-1.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="Video_Title">
+          Talking Tech and AI with Google CEO sundar Pichai!
+         </p>
 
-      <p class="Video_auth">Marques Brownlee &#10003;</p>
+        <p class="Video_auth">Marques Brownlee &#10003;</p>
 
-      <p class="Video_stats">3.4M views &#183; 6 months ago</p>
+        <p class="Video_stats">3.4M views &#183; 6 months ago</p>
+        </div>
+        
+      </div>
     </div>
 
     <div class="video_preview2">
       <img class="thumbnail-1" src="/thumbnails/thumbnail-2.webp" />
-      <p class="Video_Title">
-        Try Not To Laugh Challenge#9
-      </p>
+      <p class="Video_Title">Try Not To Laugh Challenge#9</p>
 
       <p class="Video_auth">Markiplier &#10003;</p>
 
